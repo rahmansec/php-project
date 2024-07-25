@@ -1,0 +1,258 @@
+body {
+    direction: rtl;
+    font-family: "2";
+    background-color: rgb(96, 208, 249);
+
+}
+/*--------------R.H--------------*/
+h2 {
+    font-family: math;
+    font-size: 100px;
+    font-weight: bold;
+    display: inline;
+    position: absolute;
+    /*top: 10px;*/
+    /*right: 30%;*/
+    margin: 25px 37%;
+    color: #f4ec0b;
+    text-shadow: -2px 2px 1px rgba(0,0,0,.1), -3px 3px 3px rgba(0,0,0,.3);
+    transition: all 0.3s;
+}
+h2:hover {
+    color: #07c148;
+}
+/*--------------Top Buttons--------------*/
+.but {
+    font-size: 15px;
+    font-family: "2  Bardiya";
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: #28a6e1;
+    padding:4px;
+    border:2px solid #28a6e1;
+    border-radius: 15px 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1), -2px 2px 3px rgba(0,0,0,.3);
+}
+.but:hover {
+    font-size: 17px;
+    width: 100px;
+    height: 45px;
+    background-color: #07c148;
+    color: white;
+    border:2px solid #07c148;
+    border-radius: 5px 15px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,.1), -2px 2px 3px rgba(0,0,0,.3);
+}
+#button1 {
+    direction: ltr;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+#button2 {
+    direction: ltr;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+#button3 {
+    direction: rtl;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+ }
+#button4 {
+    direction: rtl;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+  }
+/*--------------Box--------------*/
+.box-mother {
+    width: 300px;
+    height: 350px;
+    border: 3px solid #074980;
+    border-radius: 15px 5px;
+    direction: rtl;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: -5px 5px 3px 0 rgba(0,0,0,.1), -2px 2px 3px rgba(0,0,0,.3);
+    transition: all 0.5s;
+    background-color: rgb(104, 244, 244);
+    margin-top: 200px;
+    margin-right: 50px;
+}
+.box-mother:hover {
+    transform: scale(1.05);
+    /*width: 310px;*/
+    /*height: 360px;*/
+    border-radius: 15px;
+    border: 3px solid #07c148;
+}
+/* #box1{
+    margin: 250px 60px 50px 50px;
+}
+#box2 {
+    margin: 250px 45px 50px 50px;
+}
+#box3 {
+    margin: 250px 45px 50px 50px;
+}
+#box4 {
+    margin: 0 60px 50px 50px;
+}
+#box5 {
+    margin: 0 45px 50px 50px;
+}
+#box6 {
+    margin: 0 45px 50px 50px;
+} */
+/*--------------Image Box--------------*/
+.image {
+    width: 200px;
+    height: 150px;
+    background-image: url("img/balli.jpg");
+    background-size: cover;
+    border: 2px solid #3f333d;
+    border-radius: 15px 5px;
+    padding: 20px;
+    margin: 15px auto;
+    transition: all 0.5s;
+}
+/*--------------Titr,Text--------------*/
+.text1,h3 {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -1px 1px 3px #757474;
+}
+h3 {
+    font-size: 20px;
+    color: #ff3d08;
+}
+.text1 {
+    font-size: 16px;
+    color: #000000;
+}
+/*--------------Button Like , Number--------------*/
+.like {
+    font-size: 13px;
+    font-family: "2  Bardiya";
+    width: 75px;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: rgb(219, 244, 232);
+    background-color: rgb(221, 32, 32);
+    /*padding:10px;*/
+    /*margin: 15px auto;*/
+    border:2px solid rgb(221, 32, 32);
+    border-radius: 15px 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}
+.like:hover {
+    font-size: 15px;
+    transform: scale(1.03);
+    /* width: 80px;
+     height: 40px;*/
+    background-color: #28a6e1;
+    color: white;
+    border: 2px solid #28a6e1;
+    border-radius: 5px 15px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3);
+    
+}
+/*.like::before {
+    content: "12";
+    font-size: 15px;
+    padding: 8px 10px;
+    margin: 0 2px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: #28a6e1;
+    border:2px solid #28a6e1;
+    border-radius: 5px 15px;
+    transition: all 0.5s;
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}*/
+.label-like {
+    margin: 2px 30%;
+    display: inline-block;
+}
+label {
+    font-size: 14px;
+    padding: 3px 12px;
+    margin: 0 2px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    color: #28a6e1;
+    border:2px solid #28a6e1;
+    border-radius: 100%;
+    transition: all 0.5s;
+    box-shadow: 0 2px 1px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3);
+}
+label:hover {
+    background-color: #07c148;
+    color: white;
+    border: 2px solid #07c148;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3);
+   
+}
+/*--------------Information Box--------------*/
+#information {
+    background-color: #28a6e1;
+    width: 95%;
+    height: 275px;
+    border: 8px dashed #fff;
+    padding: 10px;
+    margin: 15px auto;
+    direction: rtl;
+    transition: all 0.5s;
+    /*min-height: 150px;*/
+    text-overflow: clip;
+}
+#information:hover {
+    transform: scale(1.03);
+}
+.text2 {
+    font-size: 24px;
+    /*font-weight: bold;*/
+    text-shadow: -1px 1px 3px #434343;
+}
+.text3 {
+    font-size: 18px;
+    text-shadow: -1px 1px 3px #434343;
+}
+.ertebat,.address,.rh {
+    display: inline-block;
+    text-align: center;
+}
+.ertebat {
+    margin: 1px 60px;
+    /*direction: rtl;*/
+}
+.address {
+    margin: 10px 90px;
+}
+.rh {
+    margin: 0 140px;
+}
+#aks {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s;
+    box-shadow: -3px 3px 1px rgba(0,0,0,.1), -2px 4px 4px rgba(0,0,0,.3);
+}

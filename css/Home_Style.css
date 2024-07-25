@@ -1,0 +1,33 @@
+#Box1 {
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 50px;
+}
+
+#Box2 {
+    /* border: 2px solid black; */
+    position: absolute;
+    right: 50px;
+}
+
+.Btn {
+    font-size: xx-large;
+    margin: 20px;
+}
+.Btn_Like
+{
+    width: 50px;
+    font-size: medium;
+}
+
+.Box {
+    width: 400px;
+    height: 270px;
+    border: 2px solid rgb(12, 232, 16);
+    /* margin-top: 200px; */
+    position: relative; 
+    /* padding: 5px; */
+    display: block;
+    text-align: center;
+
+}

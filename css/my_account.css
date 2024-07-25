@@ -1,0 +1,14 @@
+.Tag_P
+{
+display: block;
+border-radius: 30px;
+border: 2px;
+border-color: aqua;
+color: rgb(0, 209, 35);
+margin: 30px;
+font-size: 20px;
+}
+.Tag_Strong
+{
+    color: rgb(0, 160, 209);
+}
